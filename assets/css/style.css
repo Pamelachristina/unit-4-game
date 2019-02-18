@@ -1,0 +1,31 @@
+
+
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('Sketch3d.otf'); /* IE9 Compat Modes */
+    src: url('Sketch3d.otf') format('embedded-opentype'), /* IE6-IE8 */
+         url('Sketch3d.otf') format('otf'), /* Super Modern Browsers */
+         url('Sketch3d.otf') format('otf'), /* Pretty Modern Browsers */
+         url('Sketch3d.otf')  format('truetype'), /* Safari, Android, iOS */
+         url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+  }
+
+
+html {
+	box-sizing: border-box;
+}
+
+body { 
+	min-height: 100%;
+    background: url("../images/background.jpg");
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+}
+
+h1{
+    font-family: "MyWebFont", "Sketch3d", sans-serif;
+}
+      
+}
+
