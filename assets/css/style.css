@@ -2,12 +2,14 @@
 
 @font-face {
     font-family: 'MyWebFont';
-    src: url('Sketch3d.otf'); /* IE9 Compat Modes */
-    src: url('Sketch3d.otf') format('embedded-opentype'), /* IE6-IE8 */
-         url('Sketch3d.otf') format('otf'), /* Super Modern Browsers */
-         url('Sketch3d.otf') format('otf'), /* Pretty Modern Browsers */
-         url('Sketch3d.otf')  format('truetype'), /* Safari, Android, iOS */
+    src: url('../fonts/sketch_3d-webfont.woff'); /* IE9 Compat Modes */
+    src: url('../fonts/sketch_3d-webfont.woff') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Sketch\ 3D.woff'), /* Super Modern Browsers */
+         url('../fonts/Sketch\ 3D.woff') format('otf'), /* Pretty Modern Browsers */
+         url('../fonts/Sketch\ 3D.woff')  format('truetype'), /* Safari, Android, iOS */
          url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+
+    
   }
 
 
@@ -25,7 +27,92 @@ body {
 
 h1{
     font-family: "MyWebFont", "Sketch3d", sans-serif;
+    font-size: 5em;
+    margin: 4em;
+
 }
-      
+
+h3 {
+	margin: 80px 0px 10px 0px;
+    letter-spacing: 3px;
+    
+    
 }
+
+#magicNumber
+
+.header {
+	padding: 70px 0px 0px 0px;
+	color: grey;
+}
+
+h1, h3, #magicNumber, #totalScore, #wins, #losses, .score {
+	color: #5073aa;
+}
+
+h1 {
+	color: black;
+	margin: 40px 0px 35px 0px;
+	letter-spacing: 9px;
+}
+
+.crystalimg {
+	width: 150px;
+    position: absolute;
+
+}   
+
+.gemColor{
+    position: relative;
+    margin: -15px;
+    margin-left: -10px;
+    
+}
+
+.gemColorOverlay{
+    margin: -15px;
+    display: none;
+    background-image:(url(../images/gemColor1.png));
+    
+}
+
+div:hover.gemColor1 {
+    display: block;
+  }
+
+.directions {
+	color: grey;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 7em 2em;
+    padding-bottom: 1em;
+    margin-left: 5em;
+}
+
+.score {
+	padding-top: 30px;
+	margin-bottom: 0;
+	font-size: 22px;
+	font-weight: 600;
+	letter-spacing: 3px;
+}
+
+#winOrLose {
+	color: #a182bc;
+}
+
+.total, .scores, .directions {
+	margin: auto;
+}
+
+.btn {
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #a182bc;
+	letter-spacing: 3px;
+}
+
+
+
 
