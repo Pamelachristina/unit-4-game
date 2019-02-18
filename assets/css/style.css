@@ -62,8 +62,23 @@ h1 {
 } 
 
 #crystal1.crystalimg:hover{
-  background-image: url("../images/crystal1.png")
+  background-image: url("../images/gemColor1.png")
 }
+
+#crystal2.crystalimg:hover{
+    background-image: url("../images/gemColor2.png")
+  }
+
+  #crystal3.crystalimg:hover{
+    background-image: url("../images/gemColor3.png")
+  }
+
+  #crystal4.crystalimg:hover{
+    background-image: url("../images/gemColor4.png")
+  }
+  
+  
+  
 
 .gemColor{
     margin: -15px;

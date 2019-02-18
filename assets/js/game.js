@@ -49,13 +49,7 @@ $(document).ready(function() {
 
 	newGame();
 
-	$(".crystalimg").hover(function() {
-		$(this).css({opacity: 0.3});
-	},
-	function() {
-		$(this).css({opacity: 1});
-	});
-
+	
 	
 	// Function to add the crystal values together
 	$(".crystalimg").on("click", function() {
