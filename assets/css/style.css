@@ -57,28 +57,26 @@ h1 {
 }
 
 .crystalimg {
-	width: 150px;
-    position: absolute;
+    width: 150px;
+    margin: 30px auto;
+} 
 
-}   
+#crystal1.crystalimg:hover{
+  background-image: url("../images/crystal1.png")
+}
 
 .gemColor{
-    position: relative;
     margin: -15px;
     margin-left: -10px;
     
 }
 
 .gemColorOverlay{
-    margin: -15px;
-    display: none;
-    background-image:(url(../images/gemColor1.png));
+    margin: -222px;
+    
     
 }
 
-div:hover.gemColor1 {
-    display: block;
-  }
 
 .directions {
 	color: grey;

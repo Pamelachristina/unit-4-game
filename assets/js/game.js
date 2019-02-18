@@ -56,9 +56,9 @@ $(document).ready(function() {
 		$(this).css({opacity: 1});
 	});
 
-
+	
 	// Function to add the crystal values together
-	$(".crystal").on("click", function() {
+	$(".crystalimg").on("click", function() {
 		if (totalScore >= magicNumber) {
 			return;
 		}
@@ -71,20 +71,22 @@ $(document).ready(function() {
 
 		if (totalScore === magicNumber) {
 			youWin();
-		} else if (totalScore > magicNumber) {
+		}else if (totalScore > magicNumber) {
 			youLose();
-		}
+		};
 	});
 
 	$(".btn").on("click", function() {
 		newGame();
+		
 	});
-
 });
 
-	
-	
 
+
+
+	
+	
 
 
 
