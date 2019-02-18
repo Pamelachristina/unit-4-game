@@ -17,6 +17,10 @@ html {
 	box-sizing: border-box;
 }
 
+.container{
+    
+}
+
 body { 
 	min-height: 100%;
     background: url("../images/background.jpg");
@@ -25,28 +29,42 @@ body {
 	background-attachment: scroll;
 }
 
+p{
+    margin-top: -169px;
+}
+
+.total{
+    margin: -10px;
+    font-size: 15px;
+    -ms-transform: rotate(-20deg); /* IE 9 */
+    -webkit-transform: rotate(-20deg); /* Safari 3-8 */
+    transform: rotate(-20deg); 
+}
 h1{
     font-family: "MyWebFont", "Sketch3d", sans-serif;
-    font-size: 5em;
+    font-size: 4em;
     margin: 4em;
 
 }
 
 h3 {
-	margin: 80px 0px 10px 0px;
+	margin: 0px 0px 0px 0px;
     letter-spacing: 3px;
-    
-    
+    font-family: "MyWebFont", "Sketch3d", sans-serif;
+    font-size: 4em;
 }
 
-#magicNumber
+#magicNumber{
+    font-family: "MyWebFont", "Sketch3d", sans-serif;
+    font-size: 4em;
+}
 
 .header {
 	padding: 70px 0px 0px 0px;
-	color: grey;
+	
 }
 
-h1, h3, #magicNumber, #totalScore, #wins, #losses, .score {
+h1, h3, #totalScore, #wins, #losses, .score {
 	color: #5073aa;
 }
 
@@ -62,52 +80,48 @@ h1 {
 } 
 
 #crystal1.crystalimg:hover{
-  background-image: url("../images/gemColor1.png")
-}
-
-#crystal2.crystalimg:hover{
-    background-image: url("../images/gemColor2.png")
-  }
-
-  #crystal3.crystalimg:hover{
-    background-image: url("../images/gemColor3.png")
-  }
-
-  #crystal4.crystalimg:hover{
-    background-image: url("../images/gemColor4.png")
+    background-image: url("../images/gemColor1.png");
+    background-position: center;
   }
   
+  #crystal2.crystalimg:hover{
+      background-image: url("../images/gemColor2.png");
+      background-position: center;
+    }
   
+    #crystal3.crystalimg:hover{
+      background-image: url("../images/gemColor3.png");
+      background-position: center;
+    }
   
-
-.gemColor{
-    margin: -15px;
-    margin-left: -10px;
+    #crystal4.crystalimg:hover{
+      background-image: url("../images/gemColor4.png");
+      background-position: center;
+    }
     
-}
-
-.gemColorOverlay{
-    margin: -222px;
-    
-    
-}
+   
 
 
 .directions {
-	color: grey;
+	color: black;
     text-align: center;
-    font-size: 1.5em;
-    padding: 7em 2em;
+    font-size: 1em;
+    padding: 11em 3em;
     padding-bottom: 1em;
     margin-left: 5em;
 }
 
 .score {
-	padding-top: 30px;
-	margin-bottom: 0;
-	font-size: 22px;
-	font-weight: 600;
-	letter-spacing: 3px;
+	margin: 40px;
+	font-size: 45px;
+    letter-spacing: 3px;
+    font-family: "MyWebFont", "Sketch3d", sans-serif;
+    
+    -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari 3-8 */
+    transform: rotate(20deg); 
+    
+   
 }
 
 #winOrLose {
